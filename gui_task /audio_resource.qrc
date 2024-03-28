@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/audio">
+        <file>thank_you_audio_file/tq-u.wav</file>
+        <file>thank_you_audio_file/back_space.png</file>
+        <file>thank_you_audio_file/ampersand.png</file>
+        <file>thank_you_audio_file/home.png</file>
+        <file>thank_you_audio_file/lcd.png</file>
+        <file>thank_you_audio_file/relay.png</file>
+        <file>thank_you_audio_file/sound.png</file>
+        <file>thank_you_audio_file/led (1).png</file>
+        <file>thank_you_audio_file/sim-card.png</file>
+        <file>thank_you_audio_file/contactless.png</file>
+        <file>thank_you_audio_file/fingerprint.png</file>
+        <file>thank_you_audio_file/right-arrow.png</file>
+        <file>thank_you_audio_file/ethernet.png</file>
+        <file>thank_you_audio_file/mantra_logo.jpg</file>
+        <file>thank_you_audio_file/rs-485.png</file>
+        <file>thank_you_audio_file/close.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TEST_SCREEN</class>
+ <widget class="QMainWindow" name="TEST_SCREEN">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>-213</y>
+         <width>284</width>
+         <height>626</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="QPushButton" name="home">
+            <property name="text">
+             <string>Home</string>
+            </property>
+            <property name="icon">
+             <iconset resource="audio_resource.qrc">
+              <normaloff>:/audio/thank_you_audio_file/home.png</normaloff>:/audio/thank_you_audio_file/home.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>35</width>
+              <height>35</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="lcd_test">
+            <property name="text">
+             <string>LCD test</string>
+            </property>
+            <property name="icon">
+             <iconset resource="audio_resource.qrc">
+              <normaloff>:/audio/thank_you_audio_file/lcd.png</normaloff>:/audio/thank_you_audio_file/lcd.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>35</width>
+              <height>35</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="relay_test">
+            <property name="text">
+             <string>Relay test</string>
+            </property>
+            <property name="icon">
+             <iconset resource="audio_resource.qrc">
+              <normaloff>:/audio/thank_you_audio_file/relay.png</normaloff>:/audio/thank_you_audio_file/relay.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>35</width>
+              <height>35</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QPushButton" name="speaker_test">
+            <property name="text">
+             <string>Speaker test</string>
+            </property>
+            <property name="icon">
+             <iconset resource="audio_resource.qrc">
+              <normaloff>:/audio/thank_you_audio_file/sound.png</normaloff>:/audio/thank_you_audio_file/sound.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>35</width>
+              <height>35</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QPushButton" name="led_test">
+            <property name="text">
+             <string>LED test</string>
+            </property>
+            <property name="icon">
+             <iconset resource="audio_resource.qrc">
+              <normaloff>:/audio/thank_you_audio_file/led (1).png</normaloff>:/audio/thank_you_audio_file/led (1).png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>35</width>
+              <height>35</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QPushButton" name="sam_test">
+            <property name="text">
+             <string>SAM test</string>
+            </property>
+            <property name="icon">
+             <iconset resource="audio_resource.qrc">
+              <normaloff>:/audio/thank_you_audio_file/sim-card.png</normaloff>:/audio/thank_you_audio_file/sim-card.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>35</width>
+              <height>35</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QPushButton" name="RFID_test">
+            <property name="text">
+             <string>RFID test</string>
+            </property>
+            <property name="icon">
+             <iconset resource="audio_resource.qrc">
+              <normaloff>:/audio/thank_you_audio_file/contactless.png</normaloff>:/audio/thank_you_audio_file/contactless.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>35</width>
+              <height>35</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0">
+           <widget class="QPushButton" name="finger_capture">
+            <property name="text">
+             <string>Finger Capture</string>
+            </property>
+            <property name="icon">
+             <iconset resource="audio_resource.qrc">
+              <normaloff>:/audio/thank_you_audio_file/fingerprint.png</normaloff>:/audio/thank_you_audio_file/fingerprint.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>35</width>
+              <height>35</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="0">
+           <widget class="QPushButton" name="ethernet">
+            <property name="text">
+             <string>Ethernet</string>
+            </property>
+            <property name="icon">
+             <iconset resource="audio_resource.qrc">
+              <normaloff>:/audio/thank_you_audio_file/ethernet.png</normaloff>:/audio/thank_you_audio_file/ethernet.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>35</width>
+              <height>35</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="0">
+           <widget class="QPushButton" name="rs_485">
+            <property name="text">
+             <string>RS 485</string>
+            </property>
+            <property name="icon">
+             <iconset resource="audio_resource.qrc">
+              <normaloff>:/audio/thank_you_audio_file/rs-485.png</normaloff>:/audio/thank_you_audio_file/rs-485.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>35</width>
+              <height>35</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="0">
+           <widget class="QPushButton" name="weigand_test">
+            <property name="text">
+             <string>Weigand test</string>
+            </property>
+            <property name="icon">
+             <iconset resource="audio_resource.qrc">
+              <normaloff>:/audio/thank_you_audio_file/right-arrow.png</normaloff>:/audio/thank_you_audio_file/right-arrow.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>35</width>
+              <height>35</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="11" column="0">
+           <widget class="QPushButton" name="close">
+            <property name="text">
+             <string>Close</string>
+            </property>
+            <property name="icon">
+             <iconset resource="audio_resource.qrc">
+              <normaloff>:/audio/thank_you_audio_file/close.png</normaloff>:/audio/thank_you_audio_file/close.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>35</width>
+              <height>35</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>320</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="audio_resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
